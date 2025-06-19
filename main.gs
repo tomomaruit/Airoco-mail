@@ -92,7 +92,7 @@ Relative Humidity: ${relativeHumidity} %
 
 ---
 This is an automated notification sent from Google Apps Script.
-  `; // 本文ここなで
+  `; // 本文ここまで
   
   try { //try-catch文の実装
     MailApp.sendEmail(RECIPIENT_EMAIL, subject, body);
